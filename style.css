@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes two-colors {
+    from {
+        background-color: salmon;
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    /* transition: all 1s; */
+}
+
+div:hover {
+    animation: two-colors 2s infinite alternate;
+    /* transform:translateX(100px)
+    width: 200px;
+    height: 200px;
+    background-color: green; */
+}
